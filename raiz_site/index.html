@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raiz Implementos</title>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#F1592B">
+<link rel="icon" href="logo.png">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(180deg,#ff7a4d,#F1592B);
+padding:20px;
+}
+
+.container{width:100%;max-width:420px;text-align:center}
+
+.logo{width:160px;margin:0 auto 16px}
+
+h1{color:white;font-size:30px;margin-bottom:24px}
+
+.link{
+display:flex;
+align-items:center;
+gap:14px;
+background:white;
+padding:18px;
+margin-bottom:14px;
+border-radius:14px;
+text-decoration:none;
+color:#000;
+font-size:18px;
+font-weight:500;
+box-shadow:0 6px 14px rgba(0,0,0,0.12);
+transition:all 0.18s ease;
+}
+
+.link:hover{
+transform:translateY(-3px) scale(1.02);
+box-shadow:0 12px 20px rgba(0,0,0,0.18);
+}
+
+.icon{width:26px}
+
+.footer{margin-top:26px;font-size:13px;color:white;opacity:0.9}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="logo.png" class="logo">
+<h1>Raiz Implementos</h1>
+
+<a class="link" href="https://wa.me/5515997543628?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20m%C3%A1quinas%20e%20implementos%20agr%C3%ADcolas.%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%3F" target="_blank">
+<img class="icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg">
+WhatsApp Vendas
+</a>
+
+<a class="link" href="https://wa.me/551532861463?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20m%C3%A1quinas%20e%20implementos%20agr%C3%ADcolas.%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%3F" target="_blank">
+<img class="icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg">
+WhatsApp Atendimento
+</a>
+
+<a class="link" href="https://www.instagram.com/raizimplementos" target="_blank">
+<img class="icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg">
+Instagram
+</a>
+
+<a class="link" href="https://raizimplementos.com.br/" target="_blank">
+🌐 Site Oficial
+</a>
+
+<div class="footer">© Raiz Implementos</div>
+
+</div>
+
+<script>
+if ("serviceWorker" in navigator) {
+navigator.serviceWorker.register("sw.js");
+}
+</script>
+
+</body>
+</html>
